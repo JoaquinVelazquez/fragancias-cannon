@@ -1,2 +1,2 @@
 # fragancias-cannon
-Repositorio del proyecto Fragancias-cannon realizado para IT Tech Group en Abril del 2021
+Repositorio del proyecto Fragancias-cannon (creacion del panel de administración de productos) realizado para IT Tech Group en Abril del 2021
