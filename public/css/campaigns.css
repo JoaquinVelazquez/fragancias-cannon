@@ -1,0 +1,80 @@
+/*--------------------------------------------------------------
+# lanzamientos
+--------------------------------------------------------------*/
+.lanzamientos .icon-box {
+    padding: 60px 30px;
+    transition: all ease-in-out 0.3s;
+    background: #fefefe;
+    box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
+    border-radius: 18px;
+    border-bottom: 5px solid #fff;
+  }
+
+  .lanzamientos .icon-box .icon {
+    width: 64px;
+    height: 64px;
+    background: #000000;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: ease-in-out 0.3s;
+    color: #fff;
+  }
+
+  .lanzamientos .icon-box .icon i {
+    font-size: 28px;
+  }
+
+  .lanzamientos .icon-box h4 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+
+  .lanzamientos .icon-box h4 a {
+    color: #282828;
+    transition: ease-in-out 0.3s;
+  }
+
+  .lanzamientos .icon-box p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+
+  .lanzamientos .icon-box:hover {
+    transform: translateY(-10px);
+    border-color: #000000;
+  }
+
+  .lanzamientos .icon-box:hover h4 a {
+    color: #000000;
+  }
+
+  .lanzamiento{
+     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+  .lanzamiento img {
+     transition: all .3s;
+  }
+  .lanzamiento img:hover{
+   transform: scale(1.05,1.05);
+
+  }
+
+  #lanzamientos{
+    margin-top: 20px;
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  @media (max-width: 767px) {
+   .row{
+       display: grid;
+       grid-template-columns: 1fr 1fr ;
+   }
+  }
